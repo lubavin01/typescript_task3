@@ -66,7 +66,7 @@ test('incorrect reduce argument throws', () => {
 
   cart.add(new Book(10, 'War and peace', 'Leo Tolstoy' , 190, 1500));
   
-expect(() => {cart.reduceQuantity(1)}).toThrow();  
+expect(() => {cart.reduceQuantity(1)}).toThrow();
 });
 
 
